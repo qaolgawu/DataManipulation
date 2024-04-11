@@ -249,3 +249,13 @@ let x11 = 10;
 let isTen = x11 == 10 ? true : false;
 
 console.log(11 === 10 ? true : false)
+
+let inp = 10;
+
+if (inp < 0) {
+	console.log("Negative!");
+} else {
+	throw "Error - I don't know what I'm doing.";
+}
+
+console.log("Does this log?");
